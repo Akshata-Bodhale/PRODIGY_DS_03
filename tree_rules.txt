@@ -1,0 +1,82 @@
+|--- poutcome_success <= 0.50
+|   |--- contact_unknown <= 0.50
+|   |   |--- housing_yes <= 0.50
+|   |   |   |--- month_aug <= 0.50
+|   |   |   |   |--- month_jul <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- month_jul >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- month_aug >  0.50
+|   |   |   |   |--- campaign <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- campaign >  1.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- housing_yes >  0.50
+|   |   |   |--- pdays <= 374.50
+|   |   |   |   |--- month_jun <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- month_jun >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- pdays >  374.50
+|   |   |   |   |--- class: 1
+|   |--- contact_unknown >  0.50
+|   |   |--- marital_married <= 0.50
+|   |   |   |--- day <= 29.50
+|   |   |   |   |--- month_may <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- month_may >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- day >  29.50
+|   |   |   |   |--- balance <= 995.00
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- balance >  995.00
+|   |   |   |   |   |--- class: 1
+|   |   |--- marital_married >  0.50
+|   |   |   |--- month_may <= 0.50
+|   |   |   |   |--- month_jun <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- month_jun >  0.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- month_may >  0.50
+|   |   |   |   |--- balance <= 44.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- balance >  44.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|--- poutcome_success >  0.50
+|   |--- housing_yes <= 0.50
+|   |   |--- pdays <= 177.50
+|   |   |   |--- pdays <= 98.50
+|   |   |   |   |--- pdays <= 82.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pdays >  82.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- pdays >  98.50
+|   |   |   |   |--- pdays <= 112.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pdays >  112.50
+|   |   |   |   |   |--- class: 1
+|   |   |--- pdays >  177.50
+|   |   |   |--- pdays <= 184.50
+|   |   |   |   |--- balance <= 1080.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- balance >  1080.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  184.50
+|   |   |   |   |--- day <= 10.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- day >  10.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |--- housing_yes >  0.50
+|   |   |--- month_may <= 0.50
+|   |   |   |--- pdays <= 185.50
+|   |   |   |   |--- pdays <= 173.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- pdays >  173.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pdays >  185.50
+|   |   |   |   |--- class: 1
+|   |   |--- month_may >  0.50
+|   |   |   |--- campaign <= 1.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- campaign >  1.50
+|   |   |   |   |--- class: 1
